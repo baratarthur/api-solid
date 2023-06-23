@@ -2,6 +2,16 @@
 
 Gympass style app.
 
+## Steps to tun the application
+<ol>
+    <li>Clone the repo</li>
+    <li>run <b>npm install</b></li>
+    <li>copy <b>.env.example</b> to <b>.env</b></li>
+    <li>run <b>npx prisma generate</b></li>
+    <li>run <b>npx prisma migrate dev</b></li>
+    <li>run <b>npm run start:dev</b></li>
+</ol>
+
 ## RFs (requisitos funcionais)
 
 - [] Deve ser possível se cadastrar;
